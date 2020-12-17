@@ -22,7 +22,7 @@ Resources:
   helloFromLambdaFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: handler/hello-world-scalajs-opt.LambdaHandler
+      Handler: handler/hello-world-scalajs-fastopt.LambdaHandler
       Runtime: nodejs12.x
       MemorySize: 128
       Timeout: 100

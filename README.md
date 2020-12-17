@@ -14,7 +14,7 @@ you need:
 ### build:
 
 create javascript:
-`sbt fullOptJS`
+`sbt fastOptJS`
 
 copy to js folder
 `sbt copyRes`
