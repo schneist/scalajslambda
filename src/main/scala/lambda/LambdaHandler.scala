@@ -15,6 +15,7 @@ object LambdaHandler {
 
   @JSExportTopLevel(name = "LambdaHandler")
   def handle(event: S3Event, context: Context): Promise[Unit] = {
+    context.succeed("any")
     Future.successful().toJSPromise
   }
 }
